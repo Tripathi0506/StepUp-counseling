@@ -1,0 +1,99 @@
+.Branches-us{
+    width: 80%;
+    margin: auto;
+    padding-top:80px ;
+    padding-bottom: 50px;
+}
+.Branches-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.Branches-col img{
+    margin: 50px;
+    width: 80%;
+}
+.Branches-col h1{
+    padding-top: 0;
+}
+.Branches-col p{
+    margin: 50px;
+    padding: 50px 0 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 200px;
+    color: #000;
+}
+/* --------footer---------- */
+
+.footer{
+    padding: 100px 20px;
+    background-color: #5b5c5e;
+    color: #ffffff;
+}
+.contain{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px
+}
+.rowp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.col {
+    text-align: justify;
+    width: 150px;
+    
+   
+}
+.col-md-3{
+    cursor: pointer;
+}
+.footer .col-md-3 ul li :hover{
+    color: #FAAE42;
+   transition-delay: 0.1s;
+}
+.col-md-3 ul li{
+    list-style: none;
+ 
+    position: relative;
+    
+}
+.col-md-3 ul li a{
+    color: #012C6D;
+    background: rgba(255, 255, 255, 0.3);
+    
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.col img {
+    display: block;
+    margin: 0 auto;
+   
+}   
+.footer p{
+    font-size: 12px;
+    color: #c1c6ca;
+    
+    
+}
+.footer .row .fab{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr{
+    margin-top: 50px;
+    background: #909296;
+}
+.footer .copyright{
+    text-align: left;
+}
